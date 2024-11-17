@@ -1,0 +1,105 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+.main-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.dashboard {
+    display: flex;
+    min-height: 80vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+}
+
+.sidebar h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.main-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.main-content table th, .main-content table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content table th {
+    background-color: #f8f8f8;
+}
+
+.main-content input {
+    padding: 5px;
+    width: 80%;
+}
+
+.main-content .btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
