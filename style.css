@@ -1,0 +1,77 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header */
+.main-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.main-header .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-header .navbar ul li {
+    margin-left: 20px;
+}
+
+.main-header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Announcements Section */
+.announcements {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.announcements h2 {
+    color: #007BFF;
+}
+
+.announcements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcements ul li {
+    margin-bottom: 10px;
+}
+
+.announcements .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
